@@ -1,0 +1,45 @@
+vsim -gui work.CLA4 work.CLALogic work.GPFullAdder
+# vsim -gui work.CLA4 work.CLALogic work.GPFullAdder 
+# Start time: 12:31:50 on Oct 25,2022
+# Loading work.CLA4
+# Loading work.GPFullAdder
+# Loading work.CLALogic
+vsim -gui work.CLA4 work.CLALogic work.GPFullAdder
+# End time: 12:34:18 on Oct 25,2022, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 1
+# vsim -gui work.CLA4 work.CLALogic work.GPFullAdder 
+# Start time: 12:34:18 on Oct 25,2022
+# Loading work.CLA4
+# Loading work.GPFullAdder
+# Loading work.CLALogic
+add wave -position insertpoint  \
+sim:/CLA4/A \
+sim:/CLA4/B \
+sim:/CLA4/Ci \
+sim:/CLA4/S \
+sim:/CLA4/Co \
+sim:/CLA4/PG \
+sim:/CLA4/GG
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: kahlo  Hostname: DESKTOP-S0IEHE6  ProcessID: 15048
+#           Attempting to use alternate WLF file "./wlft546b6q".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft546b6q
+100000010_1001
+# [100000010_1001]
+010010101_1111
+# [010010101_1111]
+110000111_0000
+# [110000111_0000]
+001100101_0110
+# [001100101_0110]
+# Load canceled
+# Load canceled
+# Compile of lab04_CLA4.v was successful.
+# Compile of lab04_CLA4.v was successful.
+# Load canceled
+run
+run -all
+run
+# End time: 13:30:28 on Oct 25,2022, Elapsed time: 0:56:10
+# Errors: 0, Warnings: 5
